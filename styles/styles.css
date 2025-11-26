@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------------------- NAV ------------------------------------- */
+nav{
+    background-color: #4c5a65;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 4%;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+/*---------------------------------- celphone ------------------------------------- */
+.div1{
+    padding-top: 8%;
+    background-color: #4c5a65;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1_1{
+    width: 40%;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.div1_1 h1{
+    font-size: 3em;
+    color: white;
+}
+.p1 span{
+    font-size: 20px;
+    color: white;
+}
+.div1_1 p{
+    font-size:20px;
+    color: rgb(128, 128, 128);
+}
+
+.div1_2{
+    margin-top: 6%;
+    gap: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1_2 button{
+    background-color: #3f9dd3;
+    color:white;
+    width: 38%;
+    height: 200%;
+    border: none;
+    border-radius: 35px;
+}
+
+.div1_2 p{
+    color: white;
+}
+
+.div1_2 a{
+    color: white;
+}
+
+/*---------------------------------- Logos ------------------------------------- */
+
+.div2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #ededed;
+    border-bottom: 1px solid  #5a5a5a ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*---------------------------------- Botones ------------------------------------- */
+
+.div3{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 1.5%;
+}
+
+.div3_123{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.div3_123 img{
+    padding-bottom: 25px;
+}
+.div3_123 p,h1{
+    font-size:20px;
+    color: rgb(128, 128, 128);
+}
+.div3_123 button{
+    margin-top: 25px;
+    background-color: #3f9dd3;
+    color:white;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 12px;
+}
+
+/*------------------------- Projects --------------------------*/
+
+.div4 h1{
+  gap: 5px;
+  margin-left: 130px;
+}
+
+.div4_imagenes{
+    margin-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}

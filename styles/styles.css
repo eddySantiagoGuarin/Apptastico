@@ -1,36 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*---------------------------------- NAV ------------------------------------- */
-nav{
+nav {
     background-color: #4c5a65;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-top: 4%;
     padding-left: 13%;
     padding-right: 13%;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     color: white;
     display: flex;
     align-items: center;
     gap: 20px;
-    
+
 }
 
 /*---------------------------------- celphone ------------------------------------- */
-.div1{
+.div1 {
     padding-top: 4%;
     background-color: #4c5a65;
     display: flex;
     justify-content: space-evenly;
 }
 
-.div1_1{
+.div1_1 {
     width: 40%;
     padding-top: 8%;
     display: flex;
@@ -39,64 +40,68 @@ nav ul{
     gap: 3%;
 }
 
-.div1_1 h1{
+.div1_1 h1 {
     font-size: 3em;
     color: white;
 }
-.p1 span{
+
+.p1 span {
     font-size: 20px;
     color: white;
 }
-.div1_1 p{
-    font-size:20px;
+
+.div1_1 p {
+    font-size: 20px;
     color: rgb(128, 128, 128);
 }
 
-.div1_2{
+.div1_2 {
     margin-top: 6%;
     gap: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div1_2 button{
+
+.div1_2 button {
     background-color: #3f9dd3;
-    color:white;
+    color: white;
     width: 38%;
     height: 200%;
     border: none;
     border-radius: 35px;
 }
 
-.div1_2 p{
+.div1_2 p {
     color: white;
 }
 
-.div1_2 a{
+.div1_2 a {
     color: white;
 }
 
 /*---------------------------------- Logos ------------------------------------- */
 
-.div2{
+.div2 {
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: #ededed;
-    border-bottom: 1px solid  #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
     display: flex;
     justify-content: space-evenly;
 }
 
 /*---------------------------------- Botones ------------------------------------- */
 
-.div3{
+.div3 {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    text-align: center;
     padding: 10% 10% 10% 10%;
     gap: 1.5%;
 }
 
-.div3_123{
+.div3_123 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,17 +109,20 @@ nav ul{
     gap: 3%;
 }
 
-.div3_123 img{
+.div3_123 img {
     padding-bottom: 25px;
 }
-.div3_123 p,h1{
-    font-size:20px;
+
+.div3_123 p,
+h1 {
+    font-size: 20px;
     color: rgb(128, 128, 128);
 }
-.div3_123 button{
+
+.div3_123 button {
     margin-top: 25px;
     background-color: #3f9dd3;
-    color:white;
+    color: white;
     width: 150px;
     height: 45px;
     border: none;
@@ -123,12 +131,12 @@ nav ul{
 
 /*------------------------- Projects --------------------------*/
 
-.div4 h1{
-  gap: 5px;
-  margin-left: 130px;
+.div4 h1 {
+    gap: 5px;
+    margin-left: 130px;
 }
 
-.div4_imagenes{
+.div4_imagenes {
     margin-top: 25px;
     padding-bottom: 35px;
     padding-left: 75px;
@@ -139,65 +147,211 @@ nav ul{
 
 /*----------------------- Blog and Feed -----------------------*/
 
-.div5{
+.div5 {
     display: flex;
     justify-content: space-evenly;
     padding: 9% 9% 9% 9%;
 }
-.div5 h1{
-   color:#808080;
-}
-.div5 h3{
-   color:#808080;
-}
-.div5 p{
-   color:#a09f9f;
+
+.div5 h1 {
+    color: #808080;
 }
 
-.div5_1{
+.div5 h3 {
+    color: #808080;
+}
+
+.div5 p {
+    color: #a09f9f;
+}
+
+.div5_1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 25px;
     flex: 1;
 }
-.div5_1_1{
+
+.div5_1_1 {
     width: 90%;
     display: flex;
     justify-content: space-around;
     gap: 30px;
 }
+
 .div5_1_1 img {
     width: 30%;
 }
-.div5_1_1_1{
+
+.div5_1_1_1 {
     display: flex;
     flex-direction: column;
 }
 
-.div5_2{
+.div5_2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex: 1;
 }
 
-    /*---------------------------------- FOOTER ------------------------------------- */
-    
-    footer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 3% 8% 3% 8%;
-    }
-    
-    footer h3{
-        color: #808080;
-    }
-    
-    /*---------------------------------- Media Queries ------------------------------------- */
+/*---------------------------------- FOOTER ------------------------------------- */
 
-    @media screen {
-        
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 8% 3% 8%;
+}
+
+footer h3 {
+    color: #808080;
+}
+
+/*---------------------------------- Media Queries ------------------------------------- */
+
+@media (max-width: 1279px) {
+    .div1 {
+        background-color:#243544;
     }
-    
+}
+
+@media (max-width: 920px) {
+
+    .div1 {
+        background-color:#1c3349;
+    }
+
+    /*------------------------- Projects --------------------------*/
+
+    .div4_imagenes {
+        overflow-x: auto;
+        scrollbar-color: #414141 #ffffff;
+    }
+
+    /*----------------------- Blog and Feed -----------------------*/
+
+    .div5 {
+        flex-direction: column;
+        padding: 5% 5% 5% 5%;
+        gap: 5%;
+    }
+
+    .div5_1_1 {
+        align-items: center;
+    }
+
+    .div5_2 {
+        margin-top: 10px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*---------------------------------- celphone ------------------------------------- */
+
+    .div1 {
+        background-color:#2a4a68;
+    }
+
+    .div1_2 {
+        font-size: 18px;
+    }
+
+    .div1_2 button {
+        width: 70%;
+        height: 40px;
+        font-size: 18px;
+        border: none;
+        border-radius: 35px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .div1 {
+        background-color:#5ea2da;
+    }
+
+    /*---------------------------------- NAV ------------------------------------- */
+    nav {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    /*---------------------------------- celphone ------------------------------------- */
+    .div1 img {
+        width: 45%;
+        height: auto;
+    }
+
+    .div1_1 {
+        padding-bottom: 3%;
+    }
+
+    .div1_1 h1 {
+        font-size: 125%;
+    }
+
+    .div1 span {
+        font-size: 12px;
+    }
+
+    .div1_1 p {
+        font-size: 12px;
+    }
+
+    .div1_2 {
+        gap: 2%;
+        font-size: 12px;
+        flex-direction: column;
+    }
+
+    .div1_2 button {
+        background-color: #4c5a65;
+        width: 70%;
+        height: 40px;
+        font-size: 12px;
+        border: none;
+        border-radius: 35px;
+    }
+
+    .div1_2 a img {
+        width: 13px;
+    }
+
+    /*---------------------------------- Botones ------------------------------------- */
+
+    .div3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 5% 5% 5%;
+    }
+
+    .div3_123 {
+        width: 80%;
+    }
+
+    .div3_123 button {
+        margin-bottom: 15px;
+    }
+
+
+    /*----------------------- Blog and Feed -----------------------*/
+
+    .div5 {
+        flex-direction: column;
+        padding: 5% 5% 5% 5%;
+        gap: 5%;
+    }
+
+
+    .div5_1_1_1 {
+        align-items: center;
+    }
+
+}
